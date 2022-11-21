@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #6992e4;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,49 @@
   to {
     transform: rotate(360deg);
   }
+}
+#bigbox {
+  display: flex;
+  width: 80%;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+  justify-content: space-around;
+}
+#dogbox img,
+#catbox img {
+  width: 450px;
+  aspect-ratio: 1.1;
+  border-radius: 10px;
+}
+#dogbox,
+#catbox {
+  display: flex;
+  flex-direction: column;
+}
+
+#dogbox button,
+#catbox button {
+  margin-top: 0.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-radius: 5px;
+  border: none;
+  font-weight: 900;
+  font-size: 16pt;
+}
+
+#dogbox button {
+  background-color: rgb(238, 83, 137);
+}
+#dogbox button:hover {
+  background-color: rgb(172, 227, 209);
+}
+
+#catbox button {
+  background-color: aquamarine;
+}
+#catbox button:hover {
+  background-color: rgb(194, 123, 148);
 }
