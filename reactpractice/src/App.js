@@ -9,6 +9,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>The War Continues...</h1>
+        <p>Choose One</p>
         <div id="bigbox">
           <div id="dogbox">
             <ImageComponent
@@ -20,7 +21,7 @@ function App() {
           <div id="catbox">
             <ImageComponent
               image="https://valevets.com/wp-content/uploads/2014/08/kitten1.jpg"
-              alt="cute kitten"
+              description="cute kitten"
             />
             <ButtonComonent label="I'm a cat person" />
           </div>
